@@ -9,6 +9,14 @@ After that, you should be able to run the program and play against a friend.
 
 This program will run on the VirtualMachine
 
+Group Members:
+Kevin Nguyen
+Tsun Hin Lai
+
+Contributors:
+cplusplus.com
+
+
 No known bugs yet.
 
 Whoever is reviewing this, if there is a data structure that you believe you can add feel free to, as the program only has arrays and not really in depth data structure code.
