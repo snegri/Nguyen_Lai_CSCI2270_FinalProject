@@ -4,7 +4,7 @@ Our project will be creating a TicTacToe game where players can play against one
 
 Phase 2
 To succesfully run the program, download the main.cpp, TicTacToe.cpp, and TicTacToe.h files. 
-Once that is done, create a project with the class files TicTacToe.h and TicTacToe.cpp
+Once that is done, create a project with the class files TicTacToe.h and TicTacToe.cpp. Copy and paste the downloaded files into the project and compile. 
 After that, you should be able to run the program and play against a friend. 
 
 This program will run on the VirtualMachine
