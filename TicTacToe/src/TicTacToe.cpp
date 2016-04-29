@@ -28,6 +28,10 @@ void TicTacToe::play()
 
     //loop for the game
     while (Finished == false) {
+        //the below line makes it so you see nothing but the board and relevant prompts
+        std::cout << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl;
+        std::cout << "Player " << currentPlayer << "'s turn!" << std::endl;
+        //the above let's the players know who's turn it is
 
         //Print out the board
         print();
@@ -45,6 +49,9 @@ void TicTacToe::play()
             //Checks if the player has won
             if (Victory(currentPlayer) == true) {
                 //prints the final board
+
+                //the below line makes it so you see nothing but the board and relevant prompts
+                std::cout << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl << std::endl;
                 print();
                 cout << "The game is over! Player " << currentPlayer << " has won!\n";
                 //CountScore(currentPlayer);
@@ -84,7 +91,7 @@ bool TicTacToe::PlayAgain()
     cout << "Would you like to play again? (Y/N): ";
     cin >> input;
     if (input == 'N' || input == 'n') {
-        cout<<"Thank You For Playing!"<<endl;
+        cout << std::endl << "Thank You For Playing!" << endl;
         //Finished = true;
         return true;
         }

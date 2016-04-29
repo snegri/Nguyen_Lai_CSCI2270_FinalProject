@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1461886514 source:/home/user/Nguyen_Lai_CSCI2270_FinalProject/TicTacToe/main.cpp
+	<iostream>
+	<string>
+	"TicTacToe.h"
+
+1461886173 /home/user/Nguyen_Lai_CSCI2270_FinalProject/TicTacToe/include/TicTacToe.h
+	<string>
+
+1461886501 source:/home/user/Nguyen_Lai_CSCI2270_FinalProject/TicTacToe/src/TicTacToe.cpp
+	"TicTacToe.h"
+	<iostream>
+	<string>
+
