@@ -47,7 +47,6 @@ void TicTacToe::play()
             x=getX();
             y=getY();
         }
-        {
             turn++;
             //Checks if the player has won
             if (Victory(currentPlayer) == true) {
@@ -70,7 +69,7 @@ void TicTacToe::play()
             } else {
                 currentPlayer = playerX;
             }
-        }
+        
     }
 }
 /*bool TicTacToe::CountScore(char currentPlayer)
