@@ -41,10 +41,12 @@ void TicTacToe::play()
         y = getY();
 
 
-        if (placeMarker(x, y, currentPlayer) == false) {
+        while (placeMarker(x, y, currentPlayer) == false) {
             //Tells the player the spot is not available
             cout << "That spot is occupied!\n";
-        } else {
+            x=getX();
+            y=getY();
+        }
             turn++;
             //Checks if the player has won
             if (Victory(currentPlayer) == true) {
@@ -67,7 +69,7 @@ void TicTacToe::play()
             } else {
                 currentPlayer = playerX;
             }
-        }
+        
     }
 }
 /*bool TicTacToe::CountScore(char currentPlayer)
@@ -82,8 +84,6 @@ void TicTacToe::play()
     else
         //playerOscore = playerOscore +1;
         return false;
-
-
 }*/
 bool TicTacToe::PlayAgain()
 {   char input;
